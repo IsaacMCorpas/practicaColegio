@@ -1,0 +1,123 @@
+<html>
+ 
+<head>
+ 
+ <link rel="stylesheet" href="./stylos.css">
+</head>
+ 
+<body>
+ <H1>Colegio....</H1>
+
+ <p>Jaume</p>
+ <p>48975661P</p>
+ <p>C/Avila</p>
+ <p>j.i.s@educacion.es</p>
+ <p>....</p>
+ <p>....</p>
+ <p>....</p>
+   
+
+
+<h2>Grupos</h2>
+ 
+<form action="" methomethod="">
+ 
+		 <table border="1" cellpadding="0" cellspacing="0" class="tabla">
+ 
+					 <tr class="">
+ 
+								 <th width="2%">ID</th>
+ 
+								 <th width="16%">Nombre</th>
+ 
+								 <th width="16%">Edad</th>
+ 
+								 <th width="12%">Aula</th>
+ 
+					 </tr>
+
+ 
+					 <tr >
+ 
+								 <td><?=$resultado['id']?></td>
+ 
+								 <td class="nombre">Juan<?=$resultado['nombre']?></td>
+ 
+								 <td class="edad">15<?=$resultado['edad']?></td>
+ 
+								 <td class="aula">1<?=$resultado['aula']?></td>
+ 
+								 <td width="10%">
+ 
+											 <div align="center"><a href="javascript:;" id="<?=$resultado['id']?>" class="ajaxEdit"><img src="./imgs/Edit.png" width="32" height="32" class="eimage"></a>
+ 
+								 	 <a href="javascript:;" id="<?=$resultado['id']?>" class="ajaxDelete"><img src="imgs/remove.png" width="32" height="32" class="dimage"></a> </div></td>
+ 
+                     </tr>
+                     
+                     <tr >
+ 
+                        <td><?=$resultado['id']?></td>
+
+                        <td class="nombre"><?=$resultado['nombre']?></td>
+
+                        <td class="edad"><?=$resultado['edad']?></td>
+
+                        <td class="aula">1<?=$resultado['aula']?></td>
+
+                        <td width="10%">
+
+                                    <div align="center"><a href="javascript:;" id="<?=$resultado['id']?>" class="ajaxEdit"><img src="./imgs/Edit.png" width="32" height="32" class="eimage"></a>
+
+                             <a href="javascript:;" id="<?=$resultado['id']?>" class="ajaxDelete"><img src="imgs/remove.png" width="32" height="32" class="dimage"></a> </div></td>
+
+            </tr>
+
+            <tr >
+ 
+                <td><?=$resultado['id']?></td>
+
+                <td class="nombre">Marcos<?=$resultado['nombre']?></td>
+
+                <td class="edad">18<?=$resultado['edad']?></td>
+
+                <td class="aula">1<?=$resultado['aula']?></td>
+
+                <td width="10%">
+
+                            <div align="center"><a href="javascript:;" id="<?=$resultado['id']?>" class="ajaxEdit"><img src="./imgs/Edit.png" width="32" height="32" class="eimage"></a>
+
+                     <a href="javascript:;" id="<?=$resultado['id']?>" class="ajaxDelete"><img src="imgs/remove.png" width="32" height="32" class="dimage"></a> </div></td>
+
+                     <tr >
+ 
+                        <td><?=$resultado['id']?></td>
+
+                        <td class="nombre">Javi<?=$resultado['nombre']?></td>
+
+                        <td class="edad">13<?=$resultado['edad']?></td>
+
+                        <td class="aula">1<?=$resultado['aula']?></td>
+
+                        <td width="10%">
+
+                                    <div align="center"><a href="javascript:;" id="<?=$resultado['id']?>" class="ajaxEdit"><img src="./imgs/Edit.png" width="32" height="32" class="eimage"></a>
+
+                             <a href="javascript:;" id="<?=$resultado['id']?>" class="ajaxDelete"><img src="imgs/remove.png" width="32" height="32" class="dimage"></a> </div></td>
+
+            </tr>
+
+
+    </tr>
+            
+					 <? } ?>
+ 
+</table>
+ 
+<br>
+ 
+ 
+ 
+</form>
+
+<button type="button" >Nuevo</button> <input type="submit" value="Guardar">
